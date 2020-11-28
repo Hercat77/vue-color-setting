@@ -1,0 +1,37 @@
+.input-field {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    flex-direction: column;
+
+    .label {
+        font-size: 0.63vw;
+        line-height: 1.27vw;
+        font-weight: 600;
+        margin-top: 6px;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .input-container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        border-radius: 0.21vw;
+        color: #28314d;
+
+        .input {
+            width: 100%;
+            outline: 0;
+            color: rgba(255, 255, 255, 0.8);
+            background-color: rgb(49,49,50);
+            border-radius: inherit;
+            border: solid 0.05vw #707070;
+            height: 24px;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 0 6px;
+        }
+    }
+}
