@@ -63,7 +63,7 @@ export default {
 }
 </script>
 
-<style src="vue-color-gradient-picker/dist/index.css" lang="css" />
+<style src="vue-color-setting/index.css" lang="css" />
 ```
 ## Demo
 
