@@ -110,7 +110,6 @@ export default {
         this.isShowGradient = attrs.type != 'solid';
       }
     }
-    }
   }
 }
 </script>
